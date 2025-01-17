@@ -1,3 +1,7 @@
+div {
+  padding: 0;
+  margin: 0;
+}
 .p-inner-one,
 .p-inner-two {
   margin-top: 0px;
@@ -57,6 +61,7 @@
 .both {
   display: flex;
 }
+
 .s {
   width: 120px;
   height: 150px;
@@ -66,6 +71,7 @@
   border-style: solid;
   border-radius: 10px;
   margin-right: 20px;
+  
 }
 .sub {
   width: 150px;
@@ -172,3 +178,9 @@ color: white;
   padding-top: 50px;
 
 }
+.simple-image {
+  width: 120px;
+  height: 150px;
+  border: none;
+}
+
