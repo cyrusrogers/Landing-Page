@@ -16,6 +16,7 @@ div {
   margin-left: -8px;
   margin-top: -8px;
   margin-right: -8px;
+  
 }
 
 .header {
@@ -48,15 +49,11 @@ div {
   margin-right: 50px;
 
 }
-.image {
-  display: inline-block;
-  padding-top: 100px;
+.image { 
+  display: flex; 
   background-color: gray;
   height: 150px;
-  width: 500px;
-  margin-top: 0px;
-  text-align: center;
-  
+  width: 500px; 
 }
 .both {
   display: flex;
