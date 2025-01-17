@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+}
+p {
+  padding-left: 10px;
+}
+.container {
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  margin: -8px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.inner {
+  background-color: aliceblue;
+  width: 800px;
+}
+.first-div {
+  flex: 1;
+}
+.second-div {
+  background-color:rgb(4, 4, 17); 
+  color: white;
+}
+.third-div {
+
+}
+.forth-div {
+  background-color: rgb(202, 196, 196);
+  padding-bottom: 15px;
+}
+
+.p-color {
+  color: rgb(26, 81, 201);
+  font-size: 50px;
+  font-weight: bold;
+}
+.p-top-font {
+  padding-top: 15px;
+}
+.p-roboto {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.p-bottom-1f {
+  font-size: 22px;
+}
+.p-bottom-48 {
+  font-size: 48px;
+}
+.p-bottom-18 {
+  font-size: 18px;
+}
+.p-bottom-24 {
+  font-size: 24px;
+  font-weight: bold; 
+  padding-bottom: 20px;
+}
+.p-bottom-388 {
+  color: rgb(26, 81, 201);
+  font-weight: 700;
+}
+.p-bottom-36 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.p-bottom-E5E {
+  font-weight: bold;
+}
+.quote {
+  padding-top: 15px;
+}
+.p-bottom-light {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+[class*="p-top"] {
+  font-size: 18px;
+  margin-top: 15px;
+}
+[class*="p-bottom"] {
+  margin-bottom: 20px;
+}
